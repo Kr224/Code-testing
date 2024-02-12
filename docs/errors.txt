@@ -32,3 +32,17 @@ Error 2:
 
 
 *********** ADD AS MANY MORE AS NEEDED *******************
+
+Error 2:
+  Method: add()
+  Test Method: add_resHeightMismatch()
+  Message: add() doesn't return null when res's height is incorrect
+  Suggestion: Change return res to return null for the case when res is not null
+  Comments: Consider the case when res is not null
+
+Error 3:
+  Method: multiplyWithScalar()
+  Test Method: multiplyWithScalar()
+  Message: multiplyWithScalar() doesn't set (1,1) as we suppose
+  Suggestion: Initialize the for-loop so it starts from 0
+  Comments: Difference in counting in the real world and java, java starts from 0
